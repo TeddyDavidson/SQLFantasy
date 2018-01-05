@@ -17,20 +17,7 @@
     One third of drunk drivers are repeat offenders as well, and some have suspended licenses as well. Illegal driving massively increases risk of crashes. 
   In order to ensure the safety of drivers, it is necessary for drivers to be sober, but currently too many drivers are under the influence when on the road.
   </p>
-  <p style="text-align:center;"><script><!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-canvas {
-    border:1px solid #d3d3d3;
-    background-color: #f1f1f1;
-}
-</style>
-</head>
-<body onload="startGame()">
-<script>
-
+  <p style="text-align:center;"><script>
 var myGamePiece;
 var myObstacles = [];
 var myScore;
@@ -147,13 +134,6 @@ function everyinterval(n) {
 function accelerate(n) {
     myGamePiece.gravity = n;
 }
-</script>
-<br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive?</p>
-</body>
-</html>
 </script></p>
   <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <button onclick="startgame()">Start!</button>
